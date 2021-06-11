@@ -1,0 +1,239 @@
+body{
+    background-image: linear-gradient(to bottom right,rgb(49, 7, 49) 20% ,rgb(80, 15, 80) 60%, skyblue );
+    
+    color: white;
+}
+
+
+
+#mainheader{
+    width: 100vw;
+    height: 7vh;
+    background-color: rgb(245, 241, 241);
+    margin-bottom: 2vh;
+    margin-top: -10px;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+}
+
+
+/* MAIN SECTIONS */
+main{
+    margin-left: 2vw;
+    margin-right: 1vw;
+    margin-top: 8vh;
+    height: 100%;
+    display: inline-block;
+    width: 72%;   
+}
+aside{
+    background-color: rgb(24, 23, 23);
+    border: rgb(41, 9, 9)  1px;
+    width: 28%;
+    height: 95%;
+    display: inline-block;
+    margin-left: -4vw;
+    margin-top: 8vh;
+    vertical-align:top;
+    position: fixed;    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* Big Box*/
+#bigboxes{
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+#bigboxes img{
+    height: 38vh;
+    width: 18rem;
+    
+    margin-right: 1vw;
+    margin-bottom: 1vh;
+    opacity: 0.9;
+}
+
+
+
+
+/* 2. Latest Release section */
+#LRgroup{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20vw;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}
+#LRsongs{
+    border: 1px black solid;
+    width: 400px;
+    height: 100px;
+    margin-right: 1vw;
+    
+    
+}
+#LRsongs img{
+    height: 100px;
+}
+#LRsongs div{
+    float: right;
+    color: rgb(248, 248, 248) !important;
+    
+}
+
+
+/* Popular Artist */
+#popularartist{
+    margin-bottom: 1vh;
+    border: 1px black;
+    height: 35vh;
+    margin-top: 2vh;
+}
+#PAgroup{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 100%;
+    height: 11rem;
+    margin-bottom: 1vh;
+
+}
+#artist img{
+    height: 20vh;
+    border-radius: 50%;
+    margin: 1vw;
+}
+
+
+
+
+/* Stations */
+#stationgroup{
+    border: black 1px;
+    min-width: 100%;
+    height: 19vh;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+#mainstation{
+    margin: 1vw;
+    margin-left: 0;
+    position: sticky;
+    left: 0px;
+    z-index: 1;
+}
+#mainstation img{
+    height: 16vh;
+    width: 12vw;
+    opacity: 1;
+}
+.station{
+    margin: 1vw;
+}
+.station img{
+    border-radius: 50%;
+    height:15vh;
+    width:8vw;
+    opacity: 0.9;
+    z-index: -1;
+
+}
+
+
+/* Moods */
+#moods{
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+#moods img{
+    height: 23vh;
+    width: 22vw;
+    
+    margin-right: 1vw;
+    margin-bottom: 1vh;
+    opacity: 0.9;
+}
+
+
+/* Latest Punjabi & Hindi*/
+#latestpunjabi{
+    width: 100%;
+    height: 15vh;
+    margin-top: 8vh;
+    
+}
+
+#LPgroup{
+    display: flex;    
+    height: 5rem;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    
+}
+.LPsongs img{
+    border: 1px black;
+    width: 8vw;
+    min-width: 90px;
+    height: 15vh;
+    margin-right: 0.5vw;
+    
+}
+
+
+
+
+body{
+    margin: 0%;
+}
+
+
+
+/* Right Section */
+#AsideGroup{
+    height: 100%;
+    overflow: scroll;
+    background-color: rgb(10, 23, 43);
+    
+    
+}
+
+aside h1{
+    margin-top: 0;
+    
+}
+
+#QGroup{
+    border: black  1px;
+    margin-top: 7vh;
+}
+
+.Qsong{
+    border: black solid 1px;
+    height: 11vh;
+    margin-left: -1vw;
+}
+
+.Qsong img{
+    height: 10vh;
+    padding: 1%;
+    
+}
+
+
+
+
+
+
+/* Main Styling */
